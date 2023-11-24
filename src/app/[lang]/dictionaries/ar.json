@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "resturantName": "اسم مطعمك",
+    "home": "الرئيسية",
+    "about": "معلومات عنا",
+    "contact": "اتصل بنا",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب"
+  },
+  "footer": {
+    "copyright": "حقوق النشر © 2023 [اسم مطعمك]. جميع الحقوق محفوظة.",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة"
+  },
+  "homePage": {
+    "welcomeMessage": "مرحبًا بك في [اسم مطعمك] - تجربة طعم الرقي!",
+    "aboutLink": "تعرف أكثر علينا",
+    "contactLink": "تواصل معنا"
+  },
+  "aboutPage": {
+    "header": "عن المطعم",
+    "content": "اكتشف قصتنا وشغفنا بخلق أفضل تجربة طعام."
+  },
+  "contactPage": {
+    "header": "اتصل بنا",
+    "content": "نحن هنا للمساعدة. تواصل معنا للحجز، الاستفسارات أو الاقتراحات."
+  },
+  "loginForm": {
+    "username": "اسم المستخدم",
+    "password": "كلمة المرور",
+    "loginButton": "تسجيل الدخول",
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "newUser": "مستخدم جديد؟"
+  },
+  "registerForm": {
+    "registerHeader": "إنشاء حساب جديد",
+    "username": "اسم المستخدم",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "registerButton": "إنشاء حساب"
+  }
+}

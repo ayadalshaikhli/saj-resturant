@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "resturantName": "Your Restaurant Name",
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register"
+  },
+  "footer": {
+    "copyright": "Copyright © 2023 [Your Restaurant Name]. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "homePage": {
+    "welcomeMessage": "Welcome to [Your Restaurant Name] - Experience the Taste of Excellence!",
+    "aboutLink": "Learn More About Us",
+    "contactLink": "Get in Touch"
+  },
+  "aboutPage": {
+    "header": "About Us",
+    "content": "Discover our story and our passion for creating the finest dining experience."
+  },
+  "contactPage": {
+    "header": "Contact Us",
+    "content": "We're here to help. Contact us for reservations, inquiries, or feedback."
+  },
+  "loginForm": {
+    "username": "Username",
+    "password": "Password",
+    "loginButton": "Log In",
+    "forgotPassword": "Forgot Password?",
+    "newUser": "New User?"
+  },
+  "registerForm": {
+    "registerHeader": "Register",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "registerButton": "Register"
+  }
+}
