@@ -11,7 +11,6 @@ export default function RegisterPage({ params: { lang } }) {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ emailForm, passwordForm }),
-      
     });
   }
 
@@ -21,13 +20,13 @@ export default function RegisterPage({ params: { lang } }) {
       <form className="block max-w-xs mx-auto" onSubmit={handleFormSubmit}>
         <input
           type="email"
-          placeholder="email"
+          placeholder={email}
           value={emailForm}
           onChange={(e) => setEmailForm(e.target.value)}
         />
         <input
           type="password"
-          placeholder="password"
+          placeholder={password}
           value={passwordForm}
           onChange={(e) => setPasswordForm(e.target.value)}
         />

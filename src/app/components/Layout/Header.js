@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import SwitchLang from "../Reused/SwitchLang";
 
 export default function Header({ dict = {}, lang }) {
   const { home, about, contact, login, register } = dict?.nav || {};
@@ -42,7 +43,11 @@ export default function Header({ dict = {}, lang }) {
           </svg>
         </div>
 
-        <ul className={`menu ${isMenuOpen ? "block" : "hidden"} md:flex md:space-x-5`}>
+        <ul
+          className={`menu ${
+            isMenuOpen ? "block" : "hidden"
+          } md:flex md:space-x-5`}
+        >
           <li>
             <Link href="/">{home}</Link>
           </li>
@@ -59,6 +64,9 @@ export default function Header({ dict = {}, lang }) {
             <Link href="/register">{register}</Link>
           </li>
         </ul>
+        <div>
+          <SwitchLang />
+        </div>
       </nav>
     </header>
   );

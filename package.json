@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.2",
+    "mongoose": "^8.0.1",
     "negotiator": "^0.6.3",
     "next": "14.0.3",
     "next-auth": "^4.24.5",
